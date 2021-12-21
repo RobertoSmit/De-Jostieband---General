@@ -1,4 +1,3 @@
-//# sourceMappingURL=app.js.map
 class ViewBase {
     constructor(canvasId) {
         this.d_canvasHelper = CanvasHelper.Instance(canvasId);
@@ -63,3 +62,4 @@ class SecondScreen extends ViewBase {
         this.d_canvasHelper.writeTextCenterToCanvas("SecondScreen", 40);
     }
 }
+//# sourceMappingURL=app.js.map
