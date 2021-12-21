@@ -5,5 +5,6 @@ class SecondScreen extends ViewBase {
     public Render() : void{
         this.d_canvasHelper.Clear();
         this.d_canvasHelper.writeTextCenterToCanvas("SecondScreen",40);
+        patat
     }
 }
