@@ -1,0 +1,53 @@
+@font-face {font-family: Dutch-gothic;
+     src: url(fonts/Dutchbrigade-Regular-400.otf)}
+/* Headin */
+body {
+  background-color: indigo;
+}
+h1 {
+  color: black;
+  font-size: 45px;
+  font-family: 'Dutch-gothic', Arial, sans-serif;
+}
+/* 3*3 Grid */
+#b1, #b2, #b3, #b4, #b5,
+#b6, #b7, #b8, #b9 {
+  width: 160px;
+  height: 104px;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 6px;
+  font-size: 60px;
+  text-align: center;
+}
+input {background-color: white;}
+/* Reset Button */
+#but {
+  box-sizing: border-box;
+  width: 190px;
+  height: 80px;
+  border: 1px solid black;
+  margin: auto;
+  border-radius: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+/* Player turn space */
+#print {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  font-size: 40px;
+}
+/* Main Container */
+#main {
+  text-align: center;
+}
+/* Game Instruction Text */
+#ins {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 17px;
+}
